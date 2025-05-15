@@ -1,60 +1,32 @@
-# CodeIgniter 4 Framework
+# Website Pengumuman Sekolah
 
-## What is CodeIgniter?
+Website ini merupakan aplikasi web sederhana berbasis **CodeIgniter 4** yang digunakan sebagai media penyampaian informasi atau pengumuman resmi dari pihak sekolah kepada siswa, guru, maupun orang tua.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 📌 Deskripsi
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Website Pengumuman Sekolah dikembangkan untuk memudahkan pihak sekolah dalam menyampaikan informasi seperti kegiatan sekolah, jadwal, pengumuman penting, serta profil sekolah secara digital. Halaman utama menampilkan video profil sekolah, banner informasi, serta pengumuman penting dengan desain yang responsif dan ramah pengguna.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Beberapa fitur utama:
+- 🎞️ Tampilan video profil sekolah (autoplay)
+- 📢 Pengumuman dengan penekanan (highlight)
+- 📸 Gambar kegiatan sekolah
+- 🎵 Audio profil sekolah
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Website ini dibangun menggunakan framework **CodeIgniter 4** dengan struktur MVC (Model-View-Controller) dan dapat dijalankan secara lokal menggunakan XAMPP dengan Apache Server.
 
-## Important Change with index.php
+## 🧰 Teknologi yang Digunakan
+- PHP 8+
+- CodeIgniter 4
+- HTML5, CSS3
+- XAMPP (Apache, MySQL)
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## ⚙️ Cara Menjalankan Website
+1. Pastikan XAMPP telah terinstal di komputer Anda dan Apache sudah dapat dijalankan.
+2. Buka terminal atau command prompt, lalu clone repository ini:
+   ```bash
+   git clone https://github.com/rivandimizwar/website-pengumuman-sekolah.git
+3. Pindahkan folder hasil clone (website-pengumuman-sekolah) ke dalam direktori htdocs milik XAMPP
+4. Buka XAMPP Control Panel, lalu klik Start pada modul Apache
+5. Buka browser dan akses alamat berikut:
+   http://localhost/website-pengumuman-sekolah/public
+6. Website akan langsung tampil dengan halaman utama berisi video profil, gambar kegiatan, serta pengumuman penting.
