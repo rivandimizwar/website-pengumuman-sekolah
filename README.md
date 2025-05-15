@@ -15,8 +15,8 @@ Beberapa fitur utama:
 Website ini dibangun menggunakan framework **CodeIgniter 4** dengan struktur MVC (Model-View-Controller) dan dapat dijalankan secara lokal menggunakan XAMPP dengan Apache Server.
 
 ## Screenshot
-![Sc1](Screenshot(490).png)
-![Sc2](Screenshot(491).png)
+![Sc1](Screenshot (490).png)
+![Sc2](Screenshot (491).png)
 
 ## 🧰 Teknologi yang Digunakan
 - PHP 8+
